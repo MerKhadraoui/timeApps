@@ -1,3 +1,4 @@
+![Screenshot from 2021-05-10 14-38-14](https://user-images.githubusercontent.com/75792175/117660479-7ec8c200-b19d-11eb-92c9-5c8219eb7d49.png)
 
 ### 2: JAVASCRIPT CLOCK
 
