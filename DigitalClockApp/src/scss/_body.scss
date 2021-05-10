@@ -1,0 +1,16 @@
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  @include center();
+  background-color: rgb(27, 26, 26);
+  width: 100vw;
+  height: 100vh;
+  font-size: 10rem;
+  font-family: "Russo One", sans-serif;
+  color: rgb(0, 255, 234);
+  box-shadow: 10px 5px 5px rgb(0, 255, 234);
+}
