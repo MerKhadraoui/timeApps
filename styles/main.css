@@ -1,3 +1,14 @@
-
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b1a1a;
+  width: 100vw;
+  height: 100vh;
+  font-size: 10rem;
+  font-family: "Russo One", sans-serif;
+  color: #00ffea;
+  box-shadow: 10px 5px 5px #00ffea;
+}
 
 /*# sourceMappingURL=main.css.map */
