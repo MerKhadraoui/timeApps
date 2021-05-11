@@ -4,29 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/main.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
-      rel="stylesheet"
-    />
-    <title>Digital Clock</title>
+    <title>Stop Watch</title>
   </head>
   <body>
-    <span class="titel"
-      ><div>T</div>
-      <div>I</div>
-      <div>M</div>
-      <div>E</div></span
-    >
-    <div id="MyClockDisplay" class="clock"></div>
-    <div class="loader">
-      <div class="pacman">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
+    <div class="wrapper">
+      <h1>Stopwatch</h1>
+      <h2>Vanilla JavaScript Stopwatch</h2>
+      <p><span id="seconds">00</span>:<span id="tens">00</span></p>
+      <button id="button-start">Start</button>
+      <button id="button-stop">Stop</button>
+      <button id="button-reset">Reset</button>
     </div>
     <script src="./scripts/index.js"></script>
   </body>
